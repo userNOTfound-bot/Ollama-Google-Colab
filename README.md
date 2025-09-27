@@ -14,17 +14,17 @@
 
      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/userNOTfound-bot/Ollama-Google-Colab/blob/main/Ollama_Google_Colab.ipynb)
 
-2.  Change the Runtime to T4 GPU (⚠️Warning: Google-Colab only gives you GPU usage upto 12-hours in a day).
+2.  Change the runtime to **T4 GPU**. (⚠️ **Warning:** Google Colab provides T4 GPU access for up to 12 hours a day).
 3.  Run the notebook cells to install dependencies and launch the tunnel.
-4.  Then it will provides you an cloudflared temporary public tunnel (temporary means it will generate new URL everytime when you run this NOTEBOOK, & it will work until you 'Delete the runtime usage')
+4.  A temporary public URL will be generated via `cloudflared`. This link will remain active as long as the Colab notebook is running and a new URL will be generated each time you restart the notebook.
 <p align="center">
   <img width="674" height="144" alt="Screenshot 2025-09-26 221503" src="https://github.com/user-attachments/assets/dd66cca5-74fb-4a63-a4d4-f980469b9042" />
   <br>
   <i>Example: Cloudflare Tunnel successfully created</i>
 </p>
 
-5.  Now you can use this public link in anywhere(Open Web-UI, terminal etc.) instead of Ollama local server (http://127.0.0.1:11434).
-6.  How to set that public link in terminal for that terminal session (means the particular tab in terminal you run this, if you close that you need to terminal process again), Heres how you can do (⚠️You must had Ollama installed in you OS (https://ollama.com/download)):
+5.  You can use this public link with any application that integrates with Ollama, such as Open Web-UI or your terminal, as a replacement for the default local server address (`http://127.0.0.1:11434`).
+6.  To use the public link in your terminal for the current session, follow these steps (**Note:** You must have Ollama installed on your local machine: https://ollama.com/download):
     *   **Windows:**
        *   **PowerShell:**
             ```bash
@@ -35,7 +35,7 @@
             set OLLAMA_HOST=<you_provided_cloudflared_public>
             ```
             
-  *   **Linux/MacOS(Bash/Zsh):**
+  *   **Linux/MacOS (Bash/Zsh):**
       ```bash
       export OLLAMA_HOST="<you_provided_cloudflared_public>"
       ```
@@ -50,15 +50,15 @@
 This project uses a Google Colab notebook to:
 
 1.  **Install Ollama:** The notebook first installs Ollama on the Colab instance.
-2.  **Set Up a Web Server:** It then runs the Ollama server.
+2.  **Run the Ollama Server:** It then starts the Ollama server.
 3.  **Create a Public Tunnel:** It uses `cloudflared` to create a public URL that tunnels to the Ollama server running on the Colab instance.
 
-This allows you to access the Ollama API from your local machine without having to install it locally.
+This allows you to access the Ollama API from your local machine without needing to install the models locally.
 
 ## ✨ Features
 
-*   **Free to Use:** You can use T4-GPU 12/24 hours, and with CPU unlimited but it feels way slower.
-*   **Forget about less-storage in PC/Laptop:** No need to install LLM-models on local setup.
+*   **Free to Use:** Access Google Colab's T4 GPUs for free, subject to usage limits, or use CPU resources without time restrictions (though with slower performance).
+*   **No Local Storage Needed:** Run large language models without using storage on your local machine.
 *   **Publicly Accessible:** Get a temporary public URL to share or use in your applications.
 *   **Easy to Use:** Just open the notebook and run the cells.
 
