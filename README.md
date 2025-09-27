@@ -3,8 +3,8 @@
 </p>
 <h1 align="center">Ollama on Google Colab</h1>
 
-[![Repo Size](https://img.shields.io/github/repo-size/userNOTfound-bot/Ollama_using_Google-Colab)](https://github.com/userNOTfound-bot/Ollama_using_Google-Colab)
-[![License](https://img.shields.io/github/license/userNOTfound-bot/Ollama_using_Google-Colab)](https://github.com/userNOTfound-bot/Ollama_using_Google-Colab/blob/main/LICENSE)
+[![Repo Size](https://img.shields.io/github/repo-size/userNOTfound-bot/Ollama-Google-Colab)](https://github.com/userNOTfound-bot/Ollama-Google-Colab)
+[![License](https://img.shields.io/github/license/userNOTfound-bot/Ollama-Google-Colab)](https://github.com/userNOTfound-bot/Ollama-Google-Colab/blob/main/LICENSE)
 
 > A lightweight Colab-based wrapper for Ollama using cloudflared tunnels, allowing free users to create temporary public links.
 
