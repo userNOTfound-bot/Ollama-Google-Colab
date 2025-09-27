@@ -64,7 +64,7 @@ This allows you to access the Ollama API from your local machine without having 
 
 ## 📖 Notebook Details
 
-The `ollama_using_Google_Colab.ipynb` notebook contains the following key steps:
+The `ollama_Google_Colab.ipynb` notebook contains the following key steps:
 
 *   **Installation of Ollama:**
     ```bash
