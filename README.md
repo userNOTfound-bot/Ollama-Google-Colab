@@ -18,7 +18,7 @@
 3.  Run the notebook cells to install dependencies and launch the tunnel.
 4.  Then it will provides you an cloudflared temporary public tunnel (temporary means it will generate new URL everytime when you run this NOTEBOOK, & it will work until you 'Delete the runtime usage')
 <p align="center">
-  <img width="674" height="144" alt="Screenshot 2025-09-26 221503" src="https://github.com/user-attachments/assets/08987caa-6274-4485-aa5e-3652ffe4674a" />
+  <img width="674" height="144" alt="Screenshot 2025-09-26 221503" src="https://github.com/user-attachments/assets/dd66cca5-74fb-4a63-a4d4-f980469b9042" />
   <br>
   <i>Example: Cloudflare Tunnel successfully created</i>
 </p>
@@ -41,7 +41,7 @@
       ```
       
 *   **Example - Windows(Powershell)👇**
-    <video src="https://github.com/user-attachments/assets/a6dd363a-5952-49cf-9144-c83ac2b4cbd8" controls="true" width="100%">
+    <video src="https://github.com/user-attachments/assets/db3c627e-db9c-4784-ac0a-0a25899e323d" controls="true" width="100%">
     Your browser does not support the video tag.
     </video>
 
