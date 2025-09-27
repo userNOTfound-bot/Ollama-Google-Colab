@@ -12,7 +12,7 @@
 
 1.  Click the "Open in Colab" badge below to open the notebook.
 
-     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/userNOTfound-bot/Ollama_using_Google-Colab/blob/main/ollama_using_Google_Colab.ipynb)
+     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/userNOTfound-bot/Ollama-Google-Colab/blob/main/ollama-Google_Colab.ipynb)
 
 2.  Change the Runtime to T4 GPU (⚠️Warning: Google-Colab only gives you GPU usage upto 12-hours in a day).
 3.  Run the notebook cells to install dependencies and launch the tunnel.
