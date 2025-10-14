@@ -62,25 +62,6 @@ This allows you to access the Ollama API from your local machine without needing
 *   **Publicly Accessible:** Get a temporary public URL to share or use in your applications.
 *   **Easy to Use:** Just open the notebook and run the cells.
 
-## 📖 Notebook Details
-
-The `ollama_Google_Colab.ipynb` notebook contains the following key steps:
-
-*   **Installation of Ollama:**
-    ```bash
-    !curl https://ollama.ai/install.sh | sh
-    ```
-*   **Installation of `cloudflared`:**
-    ```bash
-    !wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && dpkg -i cloudflared-linux-amd64.deb
-    ```
-*   **Running the Server and Tunnel:**
-    ```python
-    import os
-    os.environ['OLLAMA_HOST'] = '0.0.0.0'
-    # ... (rest of the python script)
-    ```
-
 ---
 
 Enjoy using Ollama on Colab! If you have any questions or feedback, please open an issue.
