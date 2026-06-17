@@ -25,7 +25,7 @@
 
 5.  You can use this public link with any application that integrates with Ollama, such as Open Web-UI or your terminal, as a replacement for the default local server address (`http://127.0.0.1:11434`).
 6.  To use the public link in your terminal for the current session, follow these steps (**Note:** You must have Ollama installed on your local machine: https://ollama.com/download):
-    *   **Windows:**
+   *   **Windows:**
        *   **PowerShell:**
             ```bash
             $env:OLLAMA_HOST="<you_provided_cloudflared_public>"
